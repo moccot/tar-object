@@ -1,0 +1,112 @@
+/*
+    Copyright 2022 Tarcísio J. S. Rodrigues <justother94@gmail.com>
+
+    This file is part of tar-object, and it is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International License.
+    To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/4.0/ or send a letter
+    to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+*/
+
+@font-face {
+	font-family: 'Acumin Variable Concept';
+	src: url('Acumin-Variable-Concept.ttf');
+}
+
+:root {
+	--t-object-wine-theme-color: #b22241;
+	--t-object-wine-theme-secondary-color: #991437;
+
+	--t-object-skylike-theme-color: #5caff2;
+	--t-object-skylike-theme-secondary-color: #2f9fea;
+
+	--t-object-tiurqueh-theme-color: #6a7aef;
+	--t-object-tiurqueh-theme-secondary-color: #5a53e5;
+
+	--t-object-dabadeedabada-theme-color: #24308e;
+	--t-object-dabadeedabada-theme-secondary-color: #172575;
+
+
+	--t-object-button-color: #c0ffd9;
+	--t-object-button-secondary-color: #5ddba5;
+
+	--t-text-color: white;
+}
+
+body {
+	font-family: 'Acumin Variable Concept';
+}
+
+div.t-object-skylike div.t-object-popup,
+div.t-object-skylike div.t-object-popup-footer {
+	background-color: var(--t-object-skylike-theme-secondary-color);
+	color: var(--t-text-color);
+}
+
+div.t-object-skylike div.t-object-popup,
+div.t-object-skylike button.t-object-button {
+	border-radius: 20px;
+}
+
+div.t-object-wine div.t-object-popup,
+div.t-object-wine div.t-object-popup-footer {
+	background-color: var(--t-object-wine-theme-color);
+	color: var(--t-text-color);
+}
+
+div.t-object-wine div.t-object-popup,
+div.t-object-wine button.t-object-button {
+	border-radius: 20px;
+}
+
+div.t-object-tiurqueh div.t-object-popup,
+div.t-object-tiurqueh div.t-object-popup-footer {
+	background-color: var(--t-object-tiurqueh-theme-color);
+	color: var(--t-text-color);
+}
+
+div.t-object-tiurqueh div.t-object-popup,
+div.t-object-tiurqueh button.t-object-button {
+	border-radius: 20px;
+}
+
+div.t-object-dabadeedabada div.t-object-popup,
+div.t-object-dabadeedabada div.t-object-popup-footer {
+	background-color: var(--t-object-dabadeedabada-theme-color);
+	color: var(--t-text-color);
+}
+
+div.t-object-dabadeedabada div.t-object-popup,
+div.t-object-dabadeedabada button.t-object-button {
+	border-radius: 20px;
+}
+
+
+
+
+button.t-object-button {
+	padding: 10px;
+	font-size: 17px;
+	border: none;
+	background-color: var(--t-object-button-secondary-color);
+	color: inherit;
+}
+
+button.t-object-button:hover {
+	background-color: var(--t-object-button-color);
+}
+
+p.t-object-paragraph {
+	margin: 15px 0px;
+}
+
+p.t-object-paragraph::first-letter {
+	margin-left: 30px;
+}
+
+.t-object-list {
+	list-style: disc;
+}
+
+span.t-object-list-caption {
+	padding-left: 15px;
+}
+
